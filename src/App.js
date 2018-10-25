@@ -9,8 +9,8 @@ import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import About from './components/About/About';
-// import Project from './components/Project/Project';
-// import Contact from './components/Contact/Contact';
+import Project from './components/Project/Project';
+import Contact from './components/Contact/Contact';
 import Main from './components/Main/Main';
 
 
@@ -30,10 +30,6 @@ class App extends Component {
     this.setState({sideDrawerOpen: false});
   }
 
-  // navbarClickHandler = () => {
-  //   this.setState({sideDrawerOpen: false});
-  // }
-
   render() {
     let backdrop;
 
@@ -46,10 +42,12 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
         {backdrop}
+
+        {/* <Home /> */}
         <ScrollableAnchor id={'Main'}><Main /></ScrollableAnchor>
         <ScrollableAnchor id={'About'}><About /></ScrollableAnchor>
-        {/* <ScrollableAnchor id={'Project'}><Project /></ScrollableAnchor>
-        <ScrollableAnchor id={'Contact'}><Contact /></ScrollableAnchor> */}
+        <ScrollableAnchor id={'Project'}><Project /></ScrollableAnchor>
+        <ScrollableAnchor id={'Contact'}><Contact /></ScrollableAnchor>
       </div>
     );
   }

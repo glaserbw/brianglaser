@@ -12,7 +12,7 @@ class Navbar extends Component {
             <div className="toolbar__toggle-button">
               <DrawerToggleButton click={this.props.drawerClickHandler} />
             </div>
-            <div className="navbar_logo"><a href="/">The Logo</a></div>
+            <div className="navbar_logo"><a href="/"></a></div>
             <div className="spacer"></div>
             <div className="navbar_navigation_items">
               <ul>
