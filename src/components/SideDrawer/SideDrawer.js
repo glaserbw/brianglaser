@@ -2,6 +2,8 @@ import React from 'react';
 
 import './SideDrawer.css';
 
+// Route imports for nav
+
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
     if (props.show){
@@ -11,13 +13,13 @@ const sideDrawer = props => {
         <nav className={drawerClasses}>
             <ul>
                 <li>
-                    <a href="/">About</a>
+                    <a href="#About" onClick={props.click}>About</a>
                 </li>
                 <li>
-                    <a href="/">Projects</a>
+                    <a href="#Projects" onClick={props.click}>Projects</a>
                 </li>
                 <li>
-                    <a href="/">Contact</a>
+                    <a href="#Contact" onClick={props.click}>Contact</a>
                 </li>
             </ul>
         </nav>

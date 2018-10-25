@@ -1,0 +1,151 @@
+/* Custom Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: left;
+}
+
+main > .bio > .intro {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 8vh;
+    font-weight: 600;
+    margin-top: 23%;
+    margin-left: 10%;
+}
+
+main > .bio > .tagline {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-left: 10%;
+}
+
+.main-icons-social i {
+    padding: 5px;
+    margin-top: 18%;
+    font-size: 3em;
+}
+
+.main-icons-social {
+    padding: 5px;
+    margin-left: 10%;
+}
+
+
+/* Theme */
+
+main {
+    background-color: gray;
+    background-image: url("../../assets/images/Brian.jpg");
+    background-position: center center;
+    background-size: cover;
+	color: #f8f8f2;
+}
+
+.main-icons-social a {
+	color: #f8f8f2;
+}
+
+.main-icons-social a svg path{
+	fill: #f8f8f2;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+    main {
+        background-color: gray;
+        background-image: url("../../assets/images/Brian_Mobile.jpg");
+        background-position: center center;
+        background-size: cover;
+        color: #f8f8f2;
+        height: 100vh;
+    }
+
+    main > .bio > .intro {
+        text-align: center;
+        font-size: 7vh;
+        margin-left: 0; 
+    }
+
+    main > .bio > .tagline {
+        font-size: 3vh;
+        text-align: center;
+        margin-left: 0; 
+    }
+
+    .main-icons-social {
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-icons-social i {
+        padding: 8px;
+        margin-top: 5%;
+        font-size: 2.5em;
+    }
+    .bio {
+        margin-top: 95%;
+    }
+}
+
+@media (min-width: 769px) {
+    main > .tagline {
+        font-size: 5vh;
+    }
+    main > .tagline {
+        font-size: 4vh;
+    }
+}
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    main {
+        text-align: center;
+        margin-left: 0;
+    }
+    main > .intro {
+        margin-top:30rem;
+        margin-left:0;
+    }
+    main > .tagline {
+        margin-left:0;
+    }
+    .main-icons-social i {
+        font-size: 4em;
+        margin:0;
+        padding:0;
+    }
+} */
+    
+/* 
+html {
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* @media (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 24px;
+    }
+} */

@@ -34,24 +34,24 @@ html {
   
 /* Custom Styles */
 
-main {
+footer {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 30vh;
     justify-content: center;
     padding: 0 30px;
     text-align: center;
 }
 
-main > .intro {
+footer > .intro {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 3.75em;
     font-weight: 600;
 }
 
-main > .tagline {
+footer > .tagline {
     font-size: 1.5rem;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     font-weight: 100;
 }
 
@@ -72,9 +72,9 @@ main > .tagline {
 
 /* Theme */
 
-main {
-	background: gray;
-	color: #f8f8f2;
+footer {
+	background: #282a36;
+    color: #f8f8f2;
 }
 
 .icons-social a {
