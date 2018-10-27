@@ -16,9 +16,9 @@ class Navbar extends Component {
             <div className="spacer"></div>
             <div className="navbar_navigation_items">
               <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Project">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li className="link--underline-effect"><a href="#About">About</a></li>
+                <li className="link--underline-effect"><a href="#Projects">Projects</a></li>
+                <li className="link--underline-effect"><a href="#Contact">Contact</a></li>
               </ul>
             </div>
           </nav>

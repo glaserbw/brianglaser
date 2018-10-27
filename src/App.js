@@ -5,13 +5,14 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 // PAGE IMPORTS
 import Navbar from './components/Navbar/Navbar';
-// import Home from './components/Home/Home';
+import Home from './components/Home/Home';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
-import Main from './components/Main/Main';
+// import Main from './components/Main/Main';
+
 
 
 
@@ -43,8 +44,8 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
         {backdrop}
 
-        {/* <Home /> */}
-        <ScrollableAnchor id={'Main'}><Main /></ScrollableAnchor>
+        <Home />
+        {/* <ScrollableAnchor id={'Main'}><Main /></ScrollableAnchor> */}
         <ScrollableAnchor id={'About'}><About /></ScrollableAnchor>
         <ScrollableAnchor id={'Project'}><Project /></ScrollableAnchor>
         <ScrollableAnchor id={'Contact'}><Contact /></ScrollableAnchor>

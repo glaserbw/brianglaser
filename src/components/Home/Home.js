@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './Home.css';
 
 // Parallax effects
-import { Parallax, Background } from 'react-parallax';
 
+// component imports
 import Title from './Title'
 import Image from './Image'
 

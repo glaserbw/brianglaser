@@ -4,8 +4,11 @@ import './Contact.css';
 class Contact extends Component {
   render() {
     return (
-        <footer>
+        <footer id="#contact" className="contact">
           <div className="tagline">Contact</div>
+          <div className="contact">Brian Glaser</div>
+          <div className="contact">Seattle, WA</div>
+          <div className="contact">glaserbw@gmail.com</div>
           <div className="icons-social">
             <a target="_blank" href="https://github.com/glaserbw"><i className="fab fa-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/brian-w-glaser/"><i className="fab fa-linkedin"></i></a>

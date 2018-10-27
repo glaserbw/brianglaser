@@ -8,8 +8,7 @@ class About extends Component {
           <div className="about-container">
               <div className="about-me">
                   <p className="about-me-headline">I'm a full-stack developer with a deep appreciation meaningful user communication</p>
-                  <hr></hr>
-                  <hr/>
+                  <hr align="left"/>
                   <p className="about-me-body">After over 10+ years experience in the digital advertising space, I decided to refocus my career and chase a passion for web development. What started as hobby/side projects quickly evolved into a career pivot to software development. Having worked in a multiude of different roles across tech, I understand what it takes for cross-functional teams to be successful. </p>
                   <br/>
                   <p className="about-me-body">When not coding/tinkering, you can find me in the mountains with my wife and Australian Cattle Dog.</p>
@@ -27,7 +26,7 @@ class About extends Component {
                   <li>Charts.js</li>
                 </ul>
                 <ul className="skills-backend">
-                  <li><h3>Backend:</h3></li>
+                  <li>Backend:</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>MongoDB</li>
@@ -36,7 +35,7 @@ class About extends Component {
                   <li>Django</li>
                 </ul>
                 <ul className="skills-other">
-                  <li><h3>Other:</h3></li>
+                  <li>Other:</li>
                   <li>Heroku</li>
                   <li>JSON</li>
                   <li>DFP</li>
